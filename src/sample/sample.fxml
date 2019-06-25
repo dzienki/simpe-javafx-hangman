@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" hgap="10.0" prefHeight="276.9999000000025" prefWidth="503.000022070315" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <Pane prefHeight="275.0" prefWidth="245.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+      <children>
+        <Label id="word" fx:id="text" labelFor="$text" layoutX="14.0" layoutY="14.0" prefHeight="56.0" prefWidth="224.0" text="Hangman!" wrapText="true">
+          <font>
+            <Font size="30.0" fx:id="x1" />
+          </font>
+        </Label>
+        <ProgressBar layoutX="13.0" layoutY="129.0" prefWidth="210.0" progress="0.0" />
+        <Button fx:id="buttonB" disable="false" layoutX="49.0" layoutY="150.0" mnemonicParsing="false" onAction="#guessB" prefHeight="21.0" prefWidth="35.0" text="B" textAlignment="LEFT" />
+        <Button fx:id="buttonC" layoutX="84.0" layoutY="150.0" mnemonicParsing="false" onAction="#guessC" prefHeight="21.0" prefWidth="35.0" text="C" />
+        <Button fx:id="buttonD" layoutX="119.0" layoutY="150.0" mnemonicParsing="false" onAction="#guessD" prefHeight="21.0" prefWidth="35.0" text="D" />
+        <Button fx:id="buttonE" layoutX="154.0" layoutY="150.0" mnemonicParsing="false" onAction="#guessE" prefHeight="21.0" prefWidth="35.0" text="E" />
+        <Button fx:id="buttonF" layoutX="190.0" layoutY="150.0" mnemonicParsing="false" onAction="#guessF" prefHeight="21.0" prefWidth="35.0" text="F" />
+        <Button fx:id="buttonG" layoutX="15.0" layoutY="171.0" mnemonicParsing="false" onAction="#guessG" prefHeight="21.0" prefWidth="35.0" text="G" />
+        <Button fx:id="buttonH" layoutX="50.0" layoutY="171.0" mnemonicParsing="false" onAction="#guessH" prefHeight="21.0" prefWidth="35.0" text="H" />
+        <Button fx:id="buttonI" layoutX="84.0" layoutY="171.0" mnemonicParsing="false" onAction="#guessI" prefHeight="21.0" prefWidth="35.0" text="I" />
+        <Button fx:id="buttonJ" layoutX="118.0" layoutY="171.0" mnemonicParsing="false" onAction="#guessJ" prefHeight="21.0" prefWidth="35.0" text="J" />
+        <Button fx:id="buttonK" layoutX="153.0" layoutY="171.0" mnemonicParsing="false" onAction="#guessK" prefHeight="21.0" prefWidth="35.0" text="K" />
+        <Button fx:id="buttonL" layoutX="189.0" layoutY="171.0" mnemonicParsing="false" onAction="#guessL" prefHeight="21.0" prefWidth="35.0" text="L" />
+        <Button fx:id="buttonM" layoutX="14.0" layoutY="194.0" mnemonicParsing="false" onAction="#guessM" prefHeight="21.0" prefWidth="35.0" text="M" />
+        <Button fx:id="buttonN" layoutX="50.0" layoutY="194.0" mnemonicParsing="false" onAction="#guessN" prefHeight="21.0" prefWidth="35.0" text="N" />
+        <Button id="button" fx:id="buttonO" layoutX="84.0" layoutY="194.0" mnemonicParsing="false" onAction="#guessO" prefHeight="21.0" prefWidth="35.0" text="O" />
+        <Button fx:id="buttonP" layoutX="119.0" layoutY="194.0" mnemonicParsing="false" onAction="#guessP" prefHeight="21.0" prefWidth="35.0" text="P" />
+        <Button fx:id="buttonR" layoutX="154.0" layoutY="194.0" mnemonicParsing="false" onAction="#guessR" prefHeight="21.0" prefWidth="35.0" text="R" />
+        <Button fx:id="buttonS" layoutX="190.0" layoutY="194.0" mnemonicParsing="false" onAction="#guessS" prefHeight="21.0" prefWidth="35.0" text="S" />
+        <Button fx:id="buttonT" layoutX="15.0" layoutY="215.0" mnemonicParsing="false" onAction="#guessT" prefHeight="21.0" prefWidth="35.0" text="T" />
+        <Button fx:id="buttonU" layoutX="50.0" layoutY="215.0" mnemonicParsing="false" onAction="#guessU" prefHeight="21.0" prefWidth="35.0" text="U" />
+        <Button fx:id="buttonV" layoutX="85.0" layoutY="215.0" mnemonicParsing="false" onAction="#guessV" prefHeight="21.0" prefWidth="35.0" text="V" />
+        <Button fx:id="buttonW" layoutX="119.0" layoutY="215.0" mnemonicParsing="false" onAction="#guessW" prefHeight="21.0" prefWidth="35.0" text="W" />
+        <Button fx:id="buttonX" layoutX="189.0" layoutY="215.0" mnemonicParsing="false" onAction="#guessX" prefHeight="21.0" prefWidth="35.0" text="X" />
+        <Button fx:id="buttonY" layoutX="153.0" layoutY="215.0" mnemonicParsing="false" onAction="#guessY" prefHeight="21.0" prefWidth="35.0" text="Y" />
+        <Button fx:id="buttonA" layoutX="15.0" layoutY="150.0" maxWidth="-Infinity" mnemonicParsing="false" onAction="#guessA" prefHeight="21.0" prefWidth="35.0" text="A" />
+        <Button fx:id="testButton" layoutX="83.0" layoutY="87.0" mnemonicParsing="false" onAction="#testButton" text="Next Word" />
+        <Button fx:id="buttonZ" layoutX="15.0" layoutY="236.0" mnemonicParsing="false" onAction="#guessZ" prefHeight="21.0" prefWidth="35.0" text="Z" />
+      </children>
+    </Pane>
+    <Pane prefHeight="278.0" prefWidth="254.9998779296875" GridPane.columnIndex="1" GridPane.rowIndex="0">
+      <children>
+        <Circle fx:id="head" disable="false" layoutX="124.0" layoutY="49.0" radius="28.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="1.6" visible="false">
+          <fill>
+            <Color blue="1.000" green="0.565" opacity="0.000" red="0.118" fx:id="x2" />
+          </fill>
+        </Circle>
+        <Line fx:id="line1" endX="-71.0" endY="199.0" layoutX="124.0" layoutY="22.0" startX="-102.0" startY="157.0" strokeWidth="6.3" visible="false" />
+        <CubicCurve fx:id="line3" controlX1="-182.0" controlX2="-47.0" controlY1="-51.0" controlY2="-70.0" endX="-56.0" endY="-27.0" fill="$x2" layoutX="185.0" layoutY="51.0" smooth="false" startX="-161.0" startY="132.0" stroke="BLACK" strokeWidth="4.4" visible="false" />
+        <Line fx:id="line2" endX="-137.0" endY="189.0" layoutX="134.0" layoutY="32.0" startX="-111.0" startY="150.0" strokeWidth="6.2" visible="false" />
+        <Ellipse fx:id="belly" fill="$x2" layoutX="124.0" layoutY="124.0" radiusX="36.0" radiusY="47.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+        <Line fx:id="line4" endX="-62.0" endY="203.0" layoutX="243.0" layoutY="2.0" startX="-101.0" startY="163.0" visible="false" />
+        <Line fx:id="line5" endX="-175.0" endY="190.0" layoutX="253.0" layoutY="12.0" startX="-149.0" startY="152.0" visible="false" />
+        <Line fx:id="line6" endX="-75.0" endY="155.0" layoutX="262.0" layoutY="-88.0" startX="-110.0" startY="183.0" visible="false" />
+        <Line fx:id="line7" endX="-205.0" endY="148.0" layoutX="272.0" layoutY="-78.0" startX="-176.0" startY="176.0" visible="false" />
+        <Label fx:id="points" layoutX="14.0" layoutY="242.0" prefHeight="21.0" prefWidth="99.0" text="Points: 0" />
+      </children>
+    </Pane>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="326.0" minWidth="10.0" prefWidth="246.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="267.0" minWidth="10.0" prefWidth="249.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>
