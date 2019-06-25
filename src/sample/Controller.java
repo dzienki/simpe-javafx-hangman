@@ -69,6 +69,8 @@ public class Controller {
             case 1:
                 head.setVisible(true);
                 break;
+            case 0:
+                break;
             default:
                     line1.setVisible(false);
                     line3.setVisible(false);
